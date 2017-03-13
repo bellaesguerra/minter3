@@ -12,16 +12,18 @@
 .box{
   width: calc(20%);
   margin: 20px 20px;
-  background: #ddd;
+  border-radius: 25px;
+  background: #60795d;
   cursor: pointer;
-  color: #FFF;
+  color: #6c2d2d;
   text-align: center;
   line-height: 130px;
 }
 
 
 .blue{
-  background-color: rgba(56, 207, 248, 0.5);
+  background-color: rgba(215, 167, 25, 1);
+  border-radius: 25px;
 }
 
 
@@ -192,10 +194,11 @@ transform: matrix3d(0.8535533905932737, 0.4999999999999999, 0.14644660940672619,
 header{
   width: 100%;
   display: block;
+  text-align: center;
   background: #FFF;
-  height: 40px;
+  height: 50px;
   margin-bottom: 4%;
-  color: #ccc;
+  color: #88c3cd;
   font-family: sans-serif;
   font-weight: bold;
   box-shadow: 0px 2px 0px 0px rgba(125,121,125,0.3);
@@ -203,7 +206,7 @@ header{
 }
 header h1, header a{
   display: inline-block;
-  font-size: .8rem;
+  font-size: 3rem;
   margin: auto 10px;
   line-height: 40px;
 
@@ -214,13 +217,13 @@ header h1{
 }
 header a{
   text-decoration: none;
-  background-color: #eee;
+  background-color: #FFF;
   color: #999;
   padding: 0 20px;
   transition: all ease-in-out .3s;
 }
 header a:hover{
-  background-color: #93dfec;
+  background-color: #FFF;
   color: #eee;
   margin-left: -3px;
 }
